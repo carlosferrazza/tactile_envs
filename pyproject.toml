@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.metadata]
+allow-direct-references = true
+
+[project]
+name = "tactile_envs"
+version = "0.0.1"
+requires-python = ">= 3.10"
+
+[tool.mypy]
+python_version = "3.11"
+ignore_missing_imports = true
+warn_unused_configs = true
+
+[tool.ruff]
+target-version = "py311"
+
+[tool.setuptools.packages.find]
+include = ["tactile_envs*"]
+exclude = []

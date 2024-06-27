@@ -1,0 +1,17 @@
+<mujoco model="lf_metacarpal_collision">
+<geom name="robot0:C_lfmetacarpal_0" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_0" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_1" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_1" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_2" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_2" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_3" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_3" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_4" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_4" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_5" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_5" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_6" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_6" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_7" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_7" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_8" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_8" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_9" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_9" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_10" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_10" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_11" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_11" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_12" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_12" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_13" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_13" pos="-0.016 0 -0.023"/>
+<geom name="robot0:C_lfmetacarpal_14" class="robot0:DC_Hand" type="mesh" mesh="right_lf_metacarpal_part_14" pos="-0.016 0 -0.023"/>
+</mujoco>

@@ -1,0 +1,109 @@
+<mujoco model="touch_sensors">
+
+    <sensor>
+        <plugin name="rh_palm_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_palm_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_ffproximal_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_ffproximal_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_ffmiddle_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_ffmiddle_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_ffdistal_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_ffdistal_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_mfproximal_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_mfproximal_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_mfmiddle_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_mfmiddle_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_mfdistal_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_mfdistal_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_rfproximal_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_rfproximal_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_rfmiddle_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_rfmiddle_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_rfdistal_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_rfdistal_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_lfmetacarpal_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_lfmetacarpal_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_lfproximal_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_lfproximal_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_lfmiddle_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_lfmiddle_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_lfdistal_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_lfdistal_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_thproximal_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_thproximal_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_thmiddle_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_thmiddle_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        <plugin name="rh_thdistal_touch" plugin="mujoco.sensor.touch_grid" objtype="site" objname="rh_thdistal_touch">
+            <config key="nchannel" value="3"/>
+            <config key="size" value="3 3"/>
+            <config key="fov" value="90 90"/>
+            <config key="gamma" value="0"/>
+        </plugin>
+        
+    </sensor>
+
+</mujoco>

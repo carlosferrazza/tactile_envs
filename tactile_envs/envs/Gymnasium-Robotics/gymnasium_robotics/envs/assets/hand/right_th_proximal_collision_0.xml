@@ -1,0 +1,18 @@
+<mujoco model="th_proximal_collision">
+<geom name="robot0:C_thproximal_0" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_0" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_1" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_1" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_2" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_2" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_3" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_3" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_4" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_5" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_5" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_6" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_6" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_7" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_7" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_8" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_8" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_9" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_9" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_10" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_10" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_11" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_11" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_12" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_12" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_13" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_13" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_14" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_14" euler="0 0 -1.57"/>
+<geom name="robot0:C_thproximal_15" class="robot0:DC_Hand" type="mesh" mesh="right_th_proximal_part_15" euler="0 0 -1.57"/>
+</mujoco>

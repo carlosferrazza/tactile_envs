@@ -1,0 +1,18 @@
+<mujoco model="th_distal_pst_collision">
+<geom name="robot0:C_thdistal_0" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_0" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_1" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_1" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_2" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_2" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_3" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_3" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_4" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_4" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_5" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_5" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_6" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_6" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_7" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_7" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_8" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_8" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_9" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_9" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_10" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_10" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_11" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_11" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_12" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_12" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_13" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_13" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_14" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_14" condim="4" euler="0 0 -1.57"/>
+<geom name="robot0:C_thdistal_15" class="robot0:DC_Hand" type="mesh" mesh="right_th_distal_pst_part_15" condim="4" euler="0 0 -1.57"/>
+</mujoco>

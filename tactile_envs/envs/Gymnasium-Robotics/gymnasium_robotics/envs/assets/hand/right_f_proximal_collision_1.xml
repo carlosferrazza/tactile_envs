@@ -1,0 +1,21 @@
+<mujoco model="f_proximal_collision">
+<geom name="robot0:C_mfproximal_0" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_0"/>
+<geom name="robot0:C_mfproximal_1" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_1"/>
+<geom name="robot0:C_mfproximal_2" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_2"/>
+<geom name="robot0:C_mfproximal_3" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_3"/>
+<geom name="robot0:C_mfproximal_4" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_4"/>
+<geom name="robot0:C_mfproximal_5" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_5"/>
+<geom name="robot0:C_mfproximal_6" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_6"/>
+<geom name="robot0:C_mfproximal_7" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_7"/>
+<geom name="robot0:C_mfproximal_8" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_8"/>
+<geom name="robot0:C_mfproximal_9" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_9"/>
+<geom name="robot0:C_mfproximal_10" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_10"/>
+<geom name="robot0:C_mfproximal_11" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_11"/>
+<geom name="robot0:C_mfproximal_12" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_12"/>
+<geom name="robot0:C_mfproximal_13" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_13"/>
+<geom name="robot0:C_mfproximal_14" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_14"/>
+<geom name="robot0:C_mfproximal_15" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_15"/>
+<geom name="robot0:C_mfproximal_16" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_16"/>
+<geom name="robot0:C_mfproximal_17" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_17"/>
+<geom name="robot0:C_mfproximal_18" class="robot0:DC_Hand" type="mesh" mesh="right_f_proximal_part_18"/>
+</mujoco>

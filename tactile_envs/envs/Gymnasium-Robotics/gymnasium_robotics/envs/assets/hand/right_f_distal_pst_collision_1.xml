@@ -1,0 +1,18 @@
+<mujoco model="f_distal_pst_collision">
+<geom name="robot0:C_mfdistal_0" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_0" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_1" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_1" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_2" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_2" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_3" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_3" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_4" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_4" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_5" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_5" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_6" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_6" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_7" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_7" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_8" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_8" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_9" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_9" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_10" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_10" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_11" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_11" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_12" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_12" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_13" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_13" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_14" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_14" condim="4" pos="0 0 0.001"/>
+<geom name="robot0:C_mfdistal_15" class="robot0:DC_Hand" type="mesh" mesh="right_f_distal_pst_part_15" condim="4" pos="0 0 0.001"/>
+</mujoco>

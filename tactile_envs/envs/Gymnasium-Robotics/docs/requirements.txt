@@ -1,0 +1,5 @@
+sphinx
+myst-parser
+git+https://github.com/Farama-Foundation/Celshast#egg=furo
+tqdm
+sphinx_github_changelog

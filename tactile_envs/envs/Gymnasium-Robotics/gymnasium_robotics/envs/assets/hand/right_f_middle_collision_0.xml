@@ -1,0 +1,18 @@
+<mujoco model="f_middle_collision">
+<geom name="robot0:C_ffmiddle_0" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_0"/>
+<geom name="robot0:C_ffmiddle_1" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_1"/>
+<geom name="robot0:C_ffmiddle_2" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_2"/>
+<geom name="robot0:C_ffmiddle_3" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_3"/>
+<geom name="robot0:C_ffmiddle_4" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_4"/>
+<geom name="robot0:C_ffmiddle_5" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_5"/>
+<geom name="robot0:C_ffmiddle_6" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_6"/>
+<geom name="robot0:C_ffmiddle_7" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_7"/>
+<geom name="robot0:C_ffmiddle_8" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_8"/>
+<geom name="robot0:C_ffmiddle_9" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_9"/>
+<geom name="robot0:C_ffmiddle_10" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_10"/>
+<geom name="robot0:C_ffmiddle_11" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_11"/>
+<geom name="robot0:C_ffmiddle_12" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_12"/>
+<geom name="robot0:C_ffmiddle_13" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_13"/>
+<geom name="robot0:C_ffmiddle_14" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_14"/>
+<geom name="robot0:C_ffmiddle_15" class="robot0:DC_Hand" type="mesh" mesh="right_f_middle_part_15"/>
+</mujoco>

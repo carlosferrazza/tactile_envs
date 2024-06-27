@@ -1,0 +1,35 @@
+<mujoco model="palm_collision">
+<geom name="robot0:C_palm_0" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_0"/>
+<geom name="robot0:C_palm_1" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_1"/>
+<geom name="robot0:C_palm_2" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_2"/>
+<geom name="robot0:C_palm_3" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_3"/>
+<geom name="robot0:C_palm_4" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_4"/>
+<geom name="robot0:C_palm_5" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_5"/>
+<geom name="robot0:C_palm_6" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_6"/>
+<geom name="robot0:C_palm_7" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_7"/>
+<geom name="robot0:C_palm_8" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_8"/>
+<geom name="robot0:C_palm_9" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_9"/>
+<geom name="robot0:C_palm_10" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_10"/>
+<geom name="robot0:C_palm_11" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_11"/>
+<geom name="robot0:C_palm_12" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_12"/>
+<geom name="robot0:C_palm_13" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_13"/>
+<geom name="robot0:C_palm_14" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_14"/>
+<geom name="robot0:C_palm_15" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_15"/>
+<geom name="robot0:C_palm_16" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_16"/>
+<geom name="robot0:C_palm_17" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_17"/>
+<geom name="robot0:C_palm_18" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_18"/>
+<geom name="robot0:C_palm_19" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_19"/>
+<geom name="robot0:C_palm_20" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_20"/>
+<geom name="robot0:C_palm_21" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_21"/>
+<geom name="robot0:C_palm_22" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_22"/>
+<geom name="robot0:C_palm_23" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_23"/>
+<geom name="robot0:C_palm_24" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_24"/>
+<geom name="robot0:C_palm_25" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_25"/>
+<geom name="robot0:C_palm_26" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_26"/>
+<geom name="robot0:C_palm_27" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_27"/>
+<geom name="robot0:C_palm_28" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_28"/>
+<geom name="robot0:C_palm_29" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_29"/>
+<geom name="robot0:C_palm_30" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_30"/>
+<geom name="robot0:C_palm_31" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_31"/>
+<geom name="robot0:C_palm_32" class="robot0:DC_Hand" type="mesh" mesh="right_palm_part_32"/>
+</mujoco>

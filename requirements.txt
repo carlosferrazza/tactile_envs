@@ -1,0 +1,31 @@
+absl-py==2.1.0
+cloudpickle==3.0.0
+contourpy==1.2.0
+cycler==0.12.1
+etils==1.7.0
+Farama-Notifications==0.0.4
+fonttools==4.49.0
+fsspec==2024.2.0
+glfw==2.6.5
+gymnasium==0.29.1
+h5py==3.11.0
+importlib-resources==6.1.1
+kiwisolver==1.4.5
+matplotlib==3.8.3
+mujoco==3.1.2
+numpy==1.26.4
+opencv-python==4.9.0.80
+packaging==23.2
+pillow==10.2.0
+pip-date==1.0.5
+PyOpenGL==3.1.7
+pyparsing==3.1.1
+python-dateutil==2.8.2
+six==1.16.0
+typing_extensions==4.9.0
+zipp==3.17.0
+
+--editable tactile_envs/envs/robosuite
+--editable tactile_envs/envs/Gymnasium-Robotics
+
+--editable .

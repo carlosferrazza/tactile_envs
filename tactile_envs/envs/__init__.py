@@ -1,0 +1,1 @@
+from tactile_envs.envs.insertion import InsertionEnv

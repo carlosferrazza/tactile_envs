@@ -1,0 +1,18 @@
+<mujoco model="th_middle_collision_assets">
+<mesh file="right_th_middle_split/right_th_middle_part_0.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_1.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_2.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_3.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_4.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_5.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_6.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_7.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_8.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_9.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_10.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_11.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_12.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_13.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_14.obj" scale="0.001 0.001 0.001"/>
+<mesh file="right_th_middle_split/right_th_middle_part_15.obj" scale="0.001 0.001 0.001"/>
+</mujoco>

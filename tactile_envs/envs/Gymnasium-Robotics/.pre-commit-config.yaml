@@ -1,0 +1,52 @@
+repos:
+  - repo: https://github.com/python/black
+    rev: 22.3.0
+    hooks:
+      - id: black
+  - repo: https://github.com/codespell-project/codespell
+    rev: v2.1.0
+    hooks:
+      - id: codespell
+        exclude: .svg
+        args:
+          - --ignore-words-list=nd,reacher,thist,ths, arry
+  - repo: https://github.com/pycqa/flake8
+    rev: 4.0.1
+    hooks:
+      - id: flake8
+        args:
+          - '--per-file-ignores=*/__init__.py:F401 /gymnasium_robotics/envs/multiagent_mujoco/__init__.py:F401'
+          - --ignore=E203,W503
+          - --max-complexity=30
+          - --max-line-length=456
+          - --show-source
+          - --statistics
+  - repo: https://github.com/PyCQA/isort
+    rev: 5.12.0
+    hooks:
+      - id: isort
+        args: ["--profile", "black"]
+  - repo: https://github.com/asottile/pyupgrade
+    rev: v2.32.0
+    hooks:
+      - id: pyupgrade
+        args: ["--py38-plus"]
+  - repo: local
+    hooks:
+      - id: pyright
+        name: pyright
+        entry: pyright
+        language: node
+        pass_filenames: false
+        types: [python]
+        additional_dependencies: ["pyright"]
+        args:
+          - --project=pyproject.toml
+  - repo: https://github.com/pycqa/pydocstyle
+    rev: 6.1.1
+    hooks:
+      - id: pydocstyle
+        exclude: ^(tests/envs/hand)|(tests/test_envs.py)|(tests/__init__.py)|(tests/utils.py)|(tests/envs/__init__.py)|(docs)|(gymnasium_robotics/utils)|(gymnasium_robotics/envs/fetch)|(gymnasium_robotics/envs/shadow_dexterous_hand)|(gymnasium_robotics/envs/maze)|(gymnasium_robotics/envs/adroit_hand)|(gymnasium_robotics/envs/franka_kitchen)
+        args:
+          - --convention=google
+          - --add-ignore=D100
