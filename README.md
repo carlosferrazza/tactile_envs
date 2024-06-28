@@ -2,6 +2,8 @@
 
 Collection of robotics environments equipped with both vision and tactile sensing. The environments are built on top of Gymnasium.
 
+![](teaser.png)
+
 Current available environments:
 * `tactile_envs/Insertion-v0` (see [Insertion](scripts/test_env_insertion.py))
 * `Door` (see [Door](scripts/test_env_door.py))
