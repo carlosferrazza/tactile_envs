@@ -1,6 +1,6 @@
 # tactile_envs
 
-Collection of robotics environments equipped with both vision and tactile sensing. The environments are built on top of Gymnasium.
+Collection of MuJoCo robotics environments equipped with both vision and tactile sensing. The environments are built on top of Gymnasium.
 
 ![](teaser.png)
 
