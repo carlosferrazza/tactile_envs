@@ -44,5 +44,4 @@ Are you interested in more complex robot environments with high-dimensional tact
 This codebase contains some files adapted from other sources:
 * Gymnasium-Robotics: https://github.com/Farama-Foundation/Gymnasium-Robotics
 * robosuite: https://github.com/ARISE-Initiative/robosuite/tree/master
-* vit-pytorch: https://github.com/lucidrains/vit-pytorch
 * TactileSimulation: https://github.com/eanswer/TactileSimulation
