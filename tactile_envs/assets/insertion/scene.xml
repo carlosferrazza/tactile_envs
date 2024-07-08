@@ -147,6 +147,7 @@
               <body name="right_silicone_pad" gravcomp="1">
               <geom class="visual" mesh="silicone_pad" material="black"/>
               <site name="touch_right" pos="0 0.04 0.018" zaxis="0 1 0" rgba="0 0 1 0"/>
+              <site name="finger_right" pos="0 -0.007 0.018" zaxis="1 0 0" rgba="1 0 0 1" group="5"/>
               </body>
           </body>
           </body>
@@ -186,6 +187,7 @@
               <body name="left_silicone_pad" gravcomp="1">
               <geom class="visual" mesh="silicone_pad" material="black"/>
               <site name="touch_left" pos="0 0.04 0.018" zaxis="0 1 0" rgba="0 0 1 0"/>
+              <site name="finger_left" pos="0 -0.007 0.018" zaxis="1 0 0" rgba="1 0 0 1" group="5"/>
               </body>
           </body>
           </body>

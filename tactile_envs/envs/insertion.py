@@ -83,7 +83,7 @@ class InsertionEnv(gym.Env):
         print("state_type: ", self.state_type)
 
         if self.state_type == 'privileged':
-            self.curr_obs = {'state': np.zeros(8)}
+            self.curr_obs = {'state': np.zeros(40)}
         elif self.state_type == 'vision':
             self.curr_obs = {'image': np.zeros((self.im_size, self.im_size, 3))}
         elif self.state_type == 'touch':
@@ -235,6 +235,7 @@ class InsertionEnv(gym.Env):
 
         self.offset_x = offset_x
         self.offset_y = offset_y
+        self.offset_yaw = offset_yaw
         self.target_quat = np.array([np.cos(offset_yaw/2), 0, 0, np.sin(offset_yaw/2)])
 
     def generate_initial_pose(self, show_full=False):
@@ -327,9 +328,12 @@ class InsertionEnv(gym.Env):
     def _get_obs(self):
         return self.curr_obs
     
-    def get_privileged(self):
-        idxs = [0,1,2,12,13,14]
-        return np.append(self.mj_data.qpos[idxs].copy(),[self.offset_x,self.offset_y])
+    def get_proprio(self):
+        left_finger = self.mj_data.site("finger_left").xpos
+        right_finger = self.mj_data.site("finger_right").xpos
+        distance = np.linalg.norm(left_finger - right_finger)
+        robot_state = np.concatenate([self.mj_data.qpos.copy()[:4], [distance]])
+        return robot_state
     
     def seed(self, seed):
         np.random.seed(seed)
@@ -349,7 +353,7 @@ class InsertionEnv(gym.Env):
         
         del self.renderer
         self.renderer = mujoco.Renderer(self.sim, height=self.im_size, width=self.im_size)
-        
+
         self.generate_initial_pose()
 
         if self.state_type == 'vision_and_touch': 
@@ -375,7 +379,7 @@ class InsertionEnv(gym.Env):
                 tactiles = np.sign(tactiles) * np.log(1 + np.abs(tactiles))
             self.curr_obs = {'tactile': tactiles}
         elif self.state_type == 'privileged':
-            self.curr_obs = np.append(self.mj_data.qpos.copy(),[self.offset_x,self.offset_y])
+            self.curr_obs = {'state': np.concatenate((self.mj_data.qpos.copy(), self.mj_data.qvel.copy(), [self.offset_x,self.offset_y,self.offset_yaw]))}
         
         info = {'id': np.array([self.id])}
 
@@ -458,7 +462,7 @@ class InsertionEnv(gym.Env):
             self.curr_obs = {'tactile': tactiles}
             info = {'id': np.array([self.id])}
         elif self.state_type == 'privileged':
-            self.curr_obs = np.append(self.mj_data.qpos.copy(),[self.offset_x,self.offset_y])
+            self.curr_obs = {'state': np.concatenate((self.mj_data.qpos.copy(), self.mj_data.qvel.copy(), [self.offset_x,self.offset_y,self.offset_yaw]))}
             info = {'id': np.array([self.id])}
 
         done = np.sqrt(delta_x**2 + delta_y**2 + delta_z**2) < 4e-3
